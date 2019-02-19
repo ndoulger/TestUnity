@@ -30,19 +30,12 @@ public class OpenNextScene : MonoBehaviour
                 case "btn3dPlant":
                     SceneManager.LoadScene("3dPlantScene");
                     break;
-                // case "myButton3":
-                //     myAudioSource.clip = aClips[2];
-                //     myAudioSource.Play();
-                //     break;
-                //  case "myButton4":
-                //    myAudioSource.clip = aClips[3];
-                //  myAudioSource.Play();
-                //break;
-                // case "CloseBtn":
-                //       Application.wantsToQuit();
-                //       break;
+                case "btnVideo":
+                    SceneManager.LoadScene("VideoScene");
+                    break;
 
-                   default:
+
+                 default:
                       break;
                 }
                // if (btnName == "btnInfo")
