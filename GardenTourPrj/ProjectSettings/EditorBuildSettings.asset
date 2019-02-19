@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3dPlantScene.unity
     guid: a8e6ab9647df02843915576031a33eb8
+  - enabled: 1
+    path: Assets/Scenes/VideoScene.unity
+    guid: 590c0338ba4fc0b4c923297062c90b87
   m_configObjects: {}

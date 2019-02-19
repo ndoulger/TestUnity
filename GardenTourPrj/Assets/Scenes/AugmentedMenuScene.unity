@@ -982,7 +982,7 @@ GameObject:
   - component: {fileID: 1496778519}
   - component: {fileID: 1496778518}
   m_Layer: 0
-  m_Name: btnClose
+  m_Name: btnCloseMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
