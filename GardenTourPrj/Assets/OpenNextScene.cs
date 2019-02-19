@@ -22,10 +22,33 @@ public class OpenNextScene : MonoBehaviour
             if (Physics.Raycast(ray, out Hit))
             {
                 btnName = Hit.transform.name;
-                if (btnName == "btnInfo")
+                switch (btnName)
                 {
+                 case "btnInfo":
                     SceneManager.LoadScene("PlantInfoScene");
+                    break;
+                case "btn3dPlant":
+                    SceneManager.LoadScene("3dPlantScene");
+                    break;
+                // case "myButton3":
+                //     myAudioSource.clip = aClips[2];
+                //     myAudioSource.Play();
+                //     break;
+                //  case "myButton4":
+                //    myAudioSource.clip = aClips[3];
+                //  myAudioSource.Play();
+                //break;
+                // case "CloseBtn":
+                //       Application.wantsToQuit();
+                //       break;
+
+                   default:
+                      break;
                 }
+               // if (btnName == "btnInfo")
+              //  {
+                //    SceneManager.LoadScene("PlantInfoScene");
+               // }
 
             }
         }
