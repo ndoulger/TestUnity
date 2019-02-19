@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 523b6ad1d5fac1a4ea5c5d42d8853adc
+  - enabled: 1
+    path: Assets/Scenes/PlantInfoScene.unity
+    guid: ed1c20fef0a1d79469ee2de865a7d842
   m_configObjects: {}
