@@ -6,14 +6,16 @@ using UnityEngine.SceneManagement;
 public class InfoSceneChanges : MonoBehaviour
 {
     string btnName;
+   // int InfoNum;
     // Start is called before the first frame update
     void Start()
     {
+    
         GameObject.Find("Info1").SetActive(true);
-       // GameObject.Find("Info2").SetActive(false);
-      //  GameObject.Find("Info3").SetActive(false);
-       // GameObject.Find("btnNext").SetActive(true);
-      //  GameObject.Find("btnPrevius").SetActive(true);
+        GameObject.Find("Info2").SetActive(false);
+      
+        GameObject.Find("btnNext").SetActive(true);
+        GameObject.Find("btnPrevius").SetActive(true);
     }
 
     // Update is called once per frame
@@ -26,38 +28,15 @@ public class InfoSceneChanges : MonoBehaviour
             if (Physics.Raycast(ray, out Hit))
             {
                 btnName = Hit.transform.name;
-
-                switch (btnName)
+                if (btnName == "btnClose")
                 {
-                    case "btnClose":
-                        SceneManager.LoadScene("AugmentedMenuScene");
-                        break;
-                    case "btnNext":
-                    //    GameObject.Find("Info2").SetActive(true);
-                        GameObject.Find("Info1").SetActive(false);
-                      //  GameObject.Find("Info2").SetActive(true);
-                       // GameObject.Find("btnPrevius").SetActive(true);
-
-                        //SceneManager.LoadScene("PlantInfoScene2");
-                        break;
-                    case "btnPrevius":
-                   //     GameObject.Find("Info1").SetActive(true);
-                     //   GameObject.Find("Info2").SetActive(false);
-                     //   GameObject.Find("btnPrevius").SetActive(false);
-                        //SceneManager.LoadScene("PlantInfoScene");
-                        break;
-                    case "btnNext2":
-                        SceneManager.LoadScene("PlantInfoScene3");
-                        break;
-                    case "btnPrevius2":
-                        SceneManager.LoadScene("PlantInfoScene2");
-                        break;
-                    default:
-                        break;
+                    SceneManager.LoadScene("AugmentedMenuScene");
                 }
-              
+            }
+
+
             }
          
         }
     }
-}
+
