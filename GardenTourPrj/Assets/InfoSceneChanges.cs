@@ -9,7 +9,11 @@ public class InfoSceneChanges : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        GameObject.Find("Info1").SetActive(true);
+       // GameObject.Find("Info2").SetActive(false);
+      //  GameObject.Find("Info3").SetActive(false);
+       // GameObject.Find("btnNext").SetActive(true);
+      //  GameObject.Find("btnPrevius").SetActive(true);
     }
 
     // Update is called once per frame
@@ -29,10 +33,18 @@ public class InfoSceneChanges : MonoBehaviour
                         SceneManager.LoadScene("AugmentedMenuScene");
                         break;
                     case "btnNext":
-                        SceneManager.LoadScene("PlantInfoScene2");
+                    //    GameObject.Find("Info2").SetActive(true);
+                        GameObject.Find("Info1").SetActive(false);
+                      //  GameObject.Find("Info2").SetActive(true);
+                       // GameObject.Find("btnPrevius").SetActive(true);
+
+                        //SceneManager.LoadScene("PlantInfoScene2");
                         break;
                     case "btnPrevius":
-                          SceneManager.LoadScene("PlantInfoScene");
+                   //     GameObject.Find("Info1").SetActive(true);
+                     //   GameObject.Find("Info2").SetActive(false);
+                     //   GameObject.Find("btnPrevius").SetActive(false);
+                        //SceneManager.LoadScene("PlantInfoScene");
                         break;
                     case "btnNext2":
                         SceneManager.LoadScene("PlantInfoScene3");
