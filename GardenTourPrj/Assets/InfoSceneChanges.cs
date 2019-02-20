@@ -15,7 +15,7 @@ public class InfoSceneChanges : MonoBehaviour
         GameObject.Find("Info2").SetActive(false);
       
         GameObject.Find("btnNext").SetActive(true);
-        GameObject.Find("btnPrevius").SetActive(true);
+        GameObject.Find("btnPrevius").SetActive(false);
     }
 
     // Update is called once per frame
