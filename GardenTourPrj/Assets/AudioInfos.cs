@@ -17,16 +17,7 @@ public class AudioInfos : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      /*  if (GameObject.Find("Info1").active)
-    
-            myAudioSource.clip = aClips[0];
-            myAudioSource.Play();
-  
-        else if (GameObject.Find("Info1").active)
-        {
-            myAudioSource.clip = aClips[0];
-            myAudioSource.Play();
-        }*/
+
     }
     public void PlaySound()
     {
