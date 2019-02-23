@@ -24,9 +24,12 @@ EditorBuildSettings:
     path: Assets/Scenes/VideoScene.unity
     guid: 590c0338ba4fc0b4c923297062c90b87
   - enabled: 0
-    path: Assets/Scenes/PlantInfoScene2.unity
+    path: 
     guid: 9b01a3822ed6fa74cb493ebaf24151c7
   - enabled: 0
-    path: Assets/Scenes/PlantInfoScene3.unity
+    path: 
     guid: fa7aec3a09f77d748911dc879900b68e
+  - enabled: 1
+    path: Assets/Scenes/PlantSeedScene.unity
+    guid: b55393fd018ee724ca5b014a0951899d
   m_configObjects: {}
