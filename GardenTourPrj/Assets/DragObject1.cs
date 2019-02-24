@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DragObject : MonoBehaviour
+public class DragObject1 : MonoBehaviour
 {
 
 
