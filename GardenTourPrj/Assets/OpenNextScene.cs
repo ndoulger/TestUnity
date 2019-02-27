@@ -33,7 +33,9 @@ public class OpenNextScene : MonoBehaviour
                 case "btnVideo":
                     SceneManager.LoadScene("VideoScene");
                     break;
-
+                case "btnPhotos":
+                    SceneManager.LoadScene("PlantPhotoScene");
+                    break;
 
                  default:
                       break;
