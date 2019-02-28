@@ -10,6 +10,9 @@ public class StartPlantSeedScene : MonoBehaviour
         GameObject.Find("Daisy").SetActive(false);
         GameObject.Find("ortansia").SetActive(false);
         GameObject.Find("SnowDrop").SetActive(false);
+        GameObject.Find("SeedDaisy").SetActive(false);
+        GameObject.Find("SeedOrtansia").SetActive(false);
+        GameObject.Find("SeedSnowDrop").SetActive(false);
     }
 
     // Update is called once per frame
