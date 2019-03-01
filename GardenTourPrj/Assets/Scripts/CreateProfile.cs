@@ -25,7 +25,7 @@ public class CreateProfile : MonoBehaviour {
 	public string side = "";
 
 	public int swipeThrustHold = 30;
-	public int spaceBetweenProfileImages = 30;
+	public int spaceBetweenProfileImages = 5;
 	private bool canSwipe;
 
 	public GameObject cartoonWindow;
