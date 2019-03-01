@@ -12,6 +12,8 @@ public class ShowFirstInfo : MonoBehaviour
 
         GameObject.Find("btnNext").SetActive(true);
         GameObject.Find("btnPrevius").SetActive(false);
+
+        GameObject.Find("btnSound").SetActive(false);
     }
 
     // Update is called once per frame
