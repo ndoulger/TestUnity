@@ -2280,6 +2280,7 @@ GameObject:
   - component: {fileID: 1638819603}
   - component: {fileID: 1638819602}
   - component: {fileID: 1638819601}
+  - component: {fileID: 1638819604}
   m_Layer: 5
   m_Name: btnPhotos
   m_TagString: Untagged
@@ -2346,7 +2347,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1638819602}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1638819604}
+        m_MethodName: BtnMainClick
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: PlantPhotoScene
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1638819602
@@ -2386,6 +2398,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1638819599}
   m_CullTransparentMesh: 0
+--- !u!114 &1638819604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638819599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: febda06f1df875e42923baa84b259c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1661668842
 GameObject:
   m_ObjectHideFlags: 0

@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlantSeedScene.unity
     guid: b55393fd018ee724ca5b014a0951899d
+  - enabled: 1
+    path: Assets/Scenes/PlantPhotoScene.unity
+    guid: 07d79a429db07a8429ec1bbdcd484bdb
   m_configObjects: {}
