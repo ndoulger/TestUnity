@@ -36,6 +36,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SearchScene.unity
     guid: 26cba075d98136940944fa796345814a
   - enabled: 1
+    path: Assets/Scenes/SearchResultsScene.unity
+    guid: 3d41864c4625e324c98fc1360acc6a17
+  - enabled: 1
     path: Assets/Scenes/PlantSeedScene.unity
     guid: b55393fd018ee724ca5b014a0951899d
   m_configObjects: {}
