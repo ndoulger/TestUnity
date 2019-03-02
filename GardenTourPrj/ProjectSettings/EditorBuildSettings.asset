@@ -48,6 +48,9 @@ EditorBuildSettings:
     path: Assets/Scenes/PlantPhotoScene.unity
     guid: 07d79a429db07a8429ec1bbdcd484bdb
   - enabled: 0
-    path: Assets/Scenes/PlantPhotoScene2.unity
+    path: 
     guid: faf44921752515e46b57c42ddd457c2a
+  - enabled: 1
+    path: Assets/Scenes/PlantPhotoScene2.unity
+    guid: bab06e2bae631494d97a13e04ae76e93
   m_configObjects: {}
