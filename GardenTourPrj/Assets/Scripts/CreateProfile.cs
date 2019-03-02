@@ -61,7 +61,7 @@ public class CreateProfile : MonoBehaviour {
 			lastScreenPosition=screenPosition;
 		}
 
-		if(Input.GetMouseButtonDown(0) && Input.mousePosition.y > (Screen.height*0.6173f) && Input.mousePosition.y < (Screen.height*0.91f) ) {
+		if(Input.GetMouseButtonDown(0)) {// && Input.mousePosition.y > (Screen.height*0.6173f) && Input.mousePosition.y < (Screen.height*0.91f) ) {
 			canSwipe = true;
 			mousePositionStartX = Input.mousePosition.x;
 		}
